@@ -12,7 +12,7 @@ Install the gem:
 
 Use it:
 
-    rspec --require RspecJunitFormatter  --out rspec.xml
+    rspec --format RspecJunitFormatter  --out rspec.xml
 
 You'll get an XML file with your results in it.
 
@@ -22,6 +22,10 @@ Add it to your Gemfile if you're using [Bundler][bundler].
 
 In your .rspec, usually alongside another formatter, add:
 
+if you use Rspec V1.0 you found  the ". rspec " on this path  :
+
+    /var/liv/gems/1.8/gems/ffi-1.0-11/spec/spec.opts where you should add the 2 lines :
+    
     --format RspecJunitFormatter
     --out rspec.xml
 
