@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name        = "rspec_junit_formatter"
+  s.name        = "xml_formatter_ST_Codex"
   s.version     = "0.1.1"
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Samuel Cochran"]
-  s.email       = ["sj26@sj26.com"]
-  s.homepage    = "http://github.com/sj26/rspec_junit_formatter"
+  s.authors     = ["Hibat Allah OUNIFI"]
+  s.email       = ["hibat.allah.batoul@gmail.com"]
+  s.homepage    = "http://github.com/HibatAllah / Xml_formatter_ST_Codex"
   s.summary     = "RSpec JUnit XML formatter"
   s.description = "RSpec results that Hudson can read."
 
